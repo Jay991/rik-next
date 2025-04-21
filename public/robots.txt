@@ -1,0 +1,10 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://riklabel.com/sitemap.xml
+
+# Disallow certain paths (uncomment if needed)
+# Disallow: /admin/
+# Disallow: /private/
