@@ -47,8 +47,10 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-open-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
-        serif: ["var(--font-roboto-slab)", "ui-serif", "Georgia", "serif"],
+        // Body text uses Montserrat
+        sans: ["var(--font-montserrat)", "ui-sans-serif", "system-ui", "sans-serif"],
+        // Headings use Inter
+        heading: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
         'inner-sm': 'inset 0 1px 2px 0 rgba(0, 0, 0, 0.05)',

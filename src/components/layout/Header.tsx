@@ -39,7 +39,7 @@ interface HeaderProps {
 
 export default function Header({ 
   menuItems = sampleMenuItems,
-  phone = '+1 (555) 123-4567'
+  phone = ''
 }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);

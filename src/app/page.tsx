@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                 Innovative B2B Solutions for Your Business
               </h1>
               <p className="text-lg sm:text-xl text-gray-200 mb-8">
@@ -55,7 +55,7 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Our Featured Products
             </h2>
             <div className="h-1 w-24 bg-orange-500 mx-auto mb-6"></div>
@@ -163,7 +163,7 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Trusted by Industry Leaders
             </h2>
             <div className="h-1 w-24 bg-orange-500 mx-auto mb-6"></div>
@@ -281,7 +281,7 @@ export default function Home() {
 
           {/* Industry Section */}
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-serif font-bold text-center mb-8">
+            <h3 className="text-2xl font-bold text-center mb-8">
               Serving Multiple Industries
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -319,7 +319,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-blue-800 to-blue-900 rounded-xl p-8 md:p-12 lg:p-16 text-white shadow-lg">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Ready to Elevate Your Business?
               </h2>
               <p className="text-lg md:text-xl text-gray-200 mb-8">

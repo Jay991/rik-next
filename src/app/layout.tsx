@@ -1,21 +1,23 @@
 import type { Metadata } from "next";
-import { Roboto_Slab, Open_Sans } from "next/font/google";
+import { Montserrat, Inter } from "next/font/google";
 import { Analytics } from '@vercel/analytics/react';
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import "./globals.css";
 
 // Font configurations
-const robotoSlab = Roboto_Slab({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-roboto-slab",
+  variable: "--font-montserrat",
   display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-const openSans = Open_Sans({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-open-sans",
+  variable: "--font-inter",
   display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -57,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${robotoSlab.variable} ${openSans.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${inter.variable}`}>
       <body className="bg-gray-50 antialiased">
         <Header />
         <main className="min-h-screen pt-20 md:pt-24">
