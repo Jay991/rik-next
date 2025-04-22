@@ -29,3 +29,32 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-inter), sans-serif;
 }
+
+/* Section headers with branded gradient (non-white background sections) */
+section:not(.bg-gradient-to-r) h2.font-heading {
+  color: #003663; /* Primary blue */
+  position: relative;
+  display: inline-block;
+}
+
+/* Add underline accent for section headers */
+section:not(.bg-gradient-to-r) .text-center h2.font-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+/* Enhanced styling for product category headings */
+h3.font-heading {
+  color: #003663; /* Primary blue */
+}
+
+/* For headings on dark/gradient backgrounds, keep them white but add emphasis */
+.bg-gradient-to-r h2.font-heading {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}

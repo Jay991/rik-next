@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
+import SupplierSlider from '../components/sections/SupplierSlider';
 
 export default function Home() {
   return (
@@ -10,22 +11,22 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6">
                 Innovative B2B Solutions for Your Business
               </h1>
               <p className="text-lg sm:text-xl text-gray-200 mb-8">
                 Transforming businesses with cutting-edge products and services designed for today's competitive landscape.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link 
-                  href="/products" 
+                <Link
+                  href="/products"
                   className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-md transition-colors inline-flex items-center justify-center"
                 >
                   Explore Products
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
-                <Link 
-                  href="/contact" 
+                <Link
+                  href="/contact"
                   className="px-6 py-3 bg-white hover:bg-gray-100 text-blue-900 font-medium rounded-md transition-colors inline-flex items-center justify-center"
                 >
                   Get in Touch
@@ -55,7 +56,7 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
               Our Featured Products
             </h2>
             <div className="h-1 w-24 bg-orange-500 mx-auto mb-6"></div>
@@ -78,12 +79,12 @@ export default function Home() {
                 /> */}
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Product Category 1</h3>
+                <h3 className="text-xl font-heading font-bold mb-2">Product Category 1</h3>
                 <p className="text-gray-600 mb-4">
                   Advanced solutions for enterprise customers with comprehensive support and customization options.
                 </p>
-                <Link 
-                  href="/products/category-1" 
+                <Link
+                  href="/products/category-1"
                   className="text-blue-900 hover:text-blue-700 font-medium inline-flex items-center"
                 >
                   Learn More
@@ -105,12 +106,12 @@ export default function Home() {
                 /> */}
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Product Category 2</h3>
+                <h3 className="text-xl font-heading font-bold mb-2">Product Category 2</h3>
                 <p className="text-gray-600 mb-4">
                   Streamlined solutions that enhance efficiency and reduce operational costs for growing businesses.
                 </p>
-                <Link 
-                  href="/products/category-2" 
+                <Link
+                  href="/products/category-2"
                   className="text-blue-900 hover:text-blue-700 font-medium inline-flex items-center"
                 >
                   Learn More
@@ -132,12 +133,12 @@ export default function Home() {
                 /> */}
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Product Category 3</h3>
+                <h3 className="text-xl font-heading font-bold mb-2">Product Category 3</h3>
                 <p className="text-gray-600 mb-4">
                   Innovative solutions designed to address the unique challenges faced by modern businesses.
                 </p>
-                <Link 
-                  href="/products/category-3" 
+                <Link
+                  href="/products/category-3"
                   className="text-blue-900 hover:text-blue-700 font-medium inline-flex items-center"
                 >
                   Learn More
@@ -148,8 +149,8 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Link 
-              href="/products" 
+            <Link
+              href="/products"
               className="px-6 py-3 bg-blue-900 hover:bg-blue-800 text-white font-medium rounded-md transition-colors inline-flex items-center"
             >
               View All Products
@@ -158,12 +159,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <SupplierSlider />
       {/* Client Showcase Section */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
               Trusted by Industry Leaders
             </h2>
             <div className="h-1 w-24 bg-orange-500 mx-auto mb-6"></div>
@@ -281,7 +282,7 @@ export default function Home() {
 
           {/* Industry Section */}
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-center mb-8">
+            <h3 className="text-2xl font-heading font-bold text-center mb-8">
               Serving Multiple Industries
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -319,21 +320,21 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-blue-800 to-blue-900 rounded-xl p-8 md:p-12 lg:p-16 text-white shadow-lg">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6 text-white !text-white">
                 Ready to Elevate Your Business?
               </h2>
               <p className="text-lg md:text-xl text-gray-200 mb-8">
                 Contact our team today to discuss how our products can help transform your operations and drive business growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link 
-                  href="/contact" 
-                  className="px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-md transition-colors inline-flex items-center justify-center"
+                <Link
+                  href="/contact"
+                  className="px-8 py-4 bg-orange-500 hover:bg-orange-600 font-medium rounded-md transition-colors inline-flex items-center justify-center"
                 >
                   Contact Us Today
                 </Link>
-                <Link 
-                  href="/products" 
+                <Link
+                  href="/products"
                   className="px-8 py-4 bg-white hover:bg-gray-100 text-blue-900 font-medium rounded-md transition-colors inline-flex items-center justify-center"
                 >
                   Explore Products
